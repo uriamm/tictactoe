@@ -28,7 +28,12 @@ Jquery CDN - https://code.jquery.com/
 ## Contributing
 ​
 
-​
+​## Problems
+
+
+1. Was not able to make a draw state ( if no more spaces were available on the board then the text should display DRAW ) 
+2. Could not figure out how to make X's and O's custom images
+3. Sometimes logic of game messes up and declares a winner before 3 in a row ( you are still able to play it is just incorrect ) 
 ## Versioning
 ​
 ​
