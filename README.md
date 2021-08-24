@@ -28,7 +28,7 @@ Jquery CDN - https://code.jquery.com/
 ## Contributing
 ​
 
-​## Problems
+### Problems
 
 
 1. Was not able to make a draw state ( if no more spaces were available on the board then the text should display DRAW ) 
