@@ -52,11 +52,7 @@ const boxClicked = (e) => {
             playText.innerText = currentPlayer +' has won!';
             return;
         } 
-        else if (playerDraw()) {
-            playText.innerText = "Draw";
-            return
-            
-        }
+        
         currentPlayer = currentPlayer === player1 ? player2 : player1
     }
 }
@@ -118,13 +114,6 @@ const playerHasWon = () => {
     
 }
 
-const playerDraw= () =>{
-    if ( spaces.length === 8)
-    {
-     return true
-    }
-
-}
 
 
 const restart = () =>{
