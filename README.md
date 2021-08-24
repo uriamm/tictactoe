@@ -1,6 +1,6 @@
 # Project Title
 ​
-The game I have chosen to do is Tic Cat Toe. A spin on tic tac toe which will feature cat themes instead of the basic tic tac toe. I plan to have a cat theme background and hope to change the X's and O's to custom images of different cats. I will have text that states which player wins ( x || o ) and hope to have a draw state as well. 
+The game I have chosen to do is Tic Cat Toe. A spin on tic tac toe which will feature cat themes instead of the basic tic tac toe. I plan to have a cat theme background and hope to change the X's and O's to custom images of different cats. I will have text that states which player wins ( x || o ) and hope to have a draw state as well. There will be a restart button to restart the board once a player has won. There will be a suprise in the restart button and will have an animation once clicked. 
 ​
 ## Getting Started
 ​
@@ -24,6 +24,9 @@ What things you need to install the software and how to install them
 ## Built With
 ​
 Jquery CDN - https://code.jquery.com/
+ES6
+HTML
+CSS
 ​
 ## Contributing
 ​
@@ -40,7 +43,7 @@ Jquery CDN - https://code.jquery.com/
 ## Authors
 ​
 ​
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+Uriel Mendoza Molina
 ​
 ## License
 ​
