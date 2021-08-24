@@ -9,8 +9,12 @@ const playText = document.getElementById('playText');
 const spaces = [];
 const player1 = "O";
 const player2 = "x";
-let currentPlayer = player1
 
+
+
+
+let currentPlayer = player1
+var arrayMaxValues = 8
 
 const drawBoard = () => {
 
@@ -48,7 +52,11 @@ const boxClicked = (e) => {
             playText.innerText = currentPlayer +' has won!';
             return;
         } 
-        
+        else if (playerDraw()) {
+            playText.innerText = "Draw";
+            return
+            
+        }
         currentPlayer = currentPlayer === player1 ? player2 : player1
     }
 }
@@ -111,6 +119,10 @@ const playerHasWon = () => {
 }
 
 const playerDraw= () =>{
+    if ( spaces.length === 8)
+    {
+     return true
+    }
 
 }
 

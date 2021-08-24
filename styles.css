@@ -55,6 +55,7 @@ body{
     align-items:center;
     color: var(--purple);
     font-size: 150px;
+    
 }
 
 
@@ -67,6 +68,19 @@ body{
 
 #restartBtn {
 font-size: 50px;
+width: 20vh;
+height:7vh;
+}
+
+#restartBtn:hover{
+  
+    background: url(img/cryingcat2.jpg);
+  font-size: 0px;
+}
+#restartBtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 
 }
 
